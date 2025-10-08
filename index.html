@@ -12,12 +12,23 @@
     <link rel="stylesheet" href="css/saropa_fonts.css">
     <link rel="stylesheet" href="css/saropa_public.css">
     <link rel="stylesheet" href="css/saropa_app.css">
-    
+
     <!-- Link to Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- ADD THIS LINE FOR THE FAVICON -->
+    
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- ADDED: Style fixes for line height and body margin -->
+    <style>
+      /* Fix 1: Add more spacing between lines of text */
+      .pagePanel {
+        line-height: 1.6;
+      }
+      /* Fix 2: Remove the large white border around the page */
+      body {
+        margin: 0;
+      }
+    </style>
     
 </head>
 <body class="gradient">
@@ -38,15 +49,15 @@
             <ol>
                 <li>Open the Saropa Contacts app on your device.</li>
                 <li>Navigate to your <strong>Account</strong> screen.</li>
-                <li>Open the <strong>Menu</strong> (often represented by three dots <i class="fa fa-ellipsis-v"></i> or three lines <i class="fa fa-bars"></i>).</li>
+                <li>Open the <strong>Menu</strong> (often represented by three dots <i class="fa-solid fa-ellipsis-v"></i> or three lines <i class="fa-solid fa-bars"></i>).</li>
                 <li>Select the <strong>'Delete Account'</strong> option from the menu.</li>
                 <li>A confirmation screen will appear. To proceed, you must confirm the deletion by tapping the button labeled <strong>'Permanently Delete'</strong>. <em>Please be aware that this action cannot be undone.</em></li>
                 <li>After your account is deleted, please <strong>Log Out</strong> of the application.</li>
             </ol>
 
             <div class="instruction-image" style="text-align:center; margin: 20px 0;">
-                <!-- TODO: Replace with a screenshot showing the 'Delete Account' menu option -->
-                <img src="https://via.placeholder.com/400x250.png?text=App+Menu+with+Delete+Account" alt="Screenshot showing the Delete Account option in the app menu." style="max-width:80%; border:1px solid #ccc;">
+                <!-- UPDATED: Path to your GIF -->
+                <img src="images/saropa-delete-account.gif" alt="Animation showing the account deletion process in the Saropa Contacts app." style="max-width:80%; border:1px solid #ccc;">
             </div>
 
             <h2>Step 2: Remove the App and Local Data From Your Device</h2>
@@ -59,22 +70,17 @@
                 <li>Tap <strong>Remove App</strong>, then confirm by tapping <strong>Delete App</strong>.</li>
             </ol>
 
-            <div class="instruction-image" style="text-align:center; margin: 20px 0;">
-                 <!-- TODO: Replace with an image showing the iOS uninstall process -->
-                <img src="https://via.placeholder.com/400x150.png?text=iOS+Uninstall+Process" alt="Illustration showing how to press and hold an app icon on an iPhone home screen to uninstall." style="max-width:80%; border:1px solid #ccc;">
-            </div>
-
             <h3>For Android:</h3>
             <ol>
                 <li>Open your device's <strong>Settings</strong> app.</li>
                 <li>Navigate to <code>Apps</code> &gt; <code>See all apps</code> and find <strong>Saropa Contacts</strong> in the list.</li>
                 <li>On the app info page, tap on <strong>Storage &amp; cache</strong>.</li>
-                <li>Tap <strong>Clear storage</strong> to permanently delete all app data. Alternatively, you can uninstall the app directly.</li>
+                <li>Tap <strong>Clear storage</strong> to permanently delete all app data. Alternatively, you can simply uninstall the app.</li>
             </ol>
 
             <hr>
             <p>
-                If you have any questions or encounter issues, please contact our support team at: <a href="mailto:your-support-email@example.com">your-support-email@example.com</a>.
+                If you have any questions or encounter issues, please contact our support team at: <a href="mailto:delete.account@saropa.com">delete.account@saropa.com</a>.
             </p>
         </div>
     </div>
