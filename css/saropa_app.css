@@ -198,7 +198,7 @@ background-image: url('file.png');
             -   Remain left aligned while the right margin grows
             -   Continue to grow while revealing additional content
 
-background-image: url('file.png');
+be: url('file.png');
 */
 /*
 
@@ -236,7 +236,7 @@ background-image: url('file.png');
             -   Remain left aligned while the right margin grows
             -   Continue to grow while revealing additional content
 
-background-image: url('file.png');
+be: url('file.png');
 */
 /*
 
@@ -361,7 +361,7 @@ background-image: url('file.png');
             -   Remain left aligned while the right margin grows
             -   Continue to grow while revealing additional content
 
-background-image: url('file.png');
+be: url('file.png');
 */
 /*
 
@@ -573,7 +573,7 @@ img {
   top: 0;
   left: 0;
   background-color: hsl(226deg, 34.5%, 40%);
-  background-image: url("https://cdn.saropa.com/scripts/_default/image/logo/SaropaLogo2019_white2_minified.svg"), url("/scripts/_default/image/logo/SaropaLogo2019_white2_minified.svg");
+  background-image: url("https://cdn.saropa.com/scripts/_default/image/logo/SaropaLogo2019_white2_minified.svg"), url("https://saropa.github.io/privacy/scripts/_default/image/logo/SaropaLogo2019_white2_minified.svg");
   background-size: 190px 50px;
   background-repeat: no-repeat;
   background-position: center;
@@ -588,7 +588,6 @@ img {
   height: 70px;
   /* sync with page_layout.scss
   border-top: 1px solid $color_primary_light;*/
-  background-image: url("https://cdn.app.saropa.com/scripts/_default/image/logo/SaropaLogo2019_white2_minified.svg"), url("/scripts/_default/image/logo/SaropaLogo2019_white2_minified.svg");
   cursor: pointer;
 }
 
