@@ -20,7 +20,7 @@
 
     <!-- Style overrides for this page -->
     <style>
-      /* Fixes for layout and spacing */
+      /* Fixes for layout, spacing, and image paths */
       body {
         margin: 0 !important;
       }
@@ -30,8 +30,9 @@
       .pagePanel {
         line-height: 1.6;
       }
-      
-      /* ADDED: Style to control the GIF size */
+      .pageContent {
+        padding-top: 80px; /* Pushes content down to avoid logo overlap */
+      }
       .instruction-gif {
         max-width: 450px; /* Limits the GIF's maximum width */
         width: 100%;      /* Allows it to shrink on mobile */
@@ -47,9 +48,18 @@
     <div class="pageContent">
         <div class="pagePanel">
             <h1>Delete Your Saropa Contacts Account and Data</h1>
+            
+            <!-- ADDED: App blurb to orient the user -->
+            <p style="font-style: italic; opacity: 0.8;">
+              Saropa Contacts is your Smart Address Book and Cloud Connection Hub, designed not just to list contacts, but to be your lifeline. It reliably links you to the right people, businesses, and critical emergency services when it matters most, even if you haven't met them yet. Think of it as your digital safety net, always ready.
+            </p>
+
+            <!-- ADDED: Link to the main Saropa website -->
+            <p style="text-align: center;">These are the data deletion instructions for the <a href="https://saropa.com" target="_blank">Saropa Contacts</a> app.</p>
             <hr>
+            
             <p>
-                To permanently delete your Saropa Contacts account, you must first delete the account from our servers using the app, and then remove the app from your device. This is a permanent and irreversible process.
+                To permanently delete your account, you must first delete the account from our servers using the app, and then remove the app from your device. This is a permanent and irreversible process.
             </p>
 
             <h2>Step 1: Delete Your Account From Our Servers</h2>
@@ -60,12 +70,12 @@
                 <li>Navigate to your <strong>Account</strong> screen.</li>
                 <li>Open the <strong>Menu</strong> (often represented by three dots <i class="fa-solid fa-ellipsis-v"></i> or three lines <i class="fa-solid fa-bars"></i>).</li>
                 <li>Select the <strong>'Delete Account'</strong> option from the menu.</li>
-                <li>A confirmation screen will appear. To proceed, you must confirm the deletion by tapping the button labeled <strong>'Permanently Delete'</strong>. <em>Please be aware that this action cannot be undone.</em></li>
+                <!-- UPDATED: Added instruction to type "DELETE" -->
+                <li>A confirmation screen will appear. To enable the final delete button, you must type the word <code>DELETE</code> into the text field. Then, tap the button labeled <strong>'Permanently Delete'</strong>. <em>Please be aware that this action cannot be undone.</em></li>
                 <li>After your account is deleted, please <strong>Log Out</strong> of the application.</li>
             </ol>
 
             <div class="instruction-image" style="text-align:center; margin: 20px 0;">
-                <!-- UPDATED: Using a class instead of inline style for the GIF -->
                 <img src="images/saropa-delete-account.gif" alt="Animation showing the account deletion process in the Saropa Contacts app." class="instruction-gif">
             </div>
 
@@ -96,7 +106,12 @@
             </p>
             
             <p style="text-align: center;">
-                If you have any questions or encounter issues, please contact our support team at: <br><a href="mailto:delete.account@saropa.com">delete.account@saropa.com</a>.
+                If you have any questions or encounter issues while deleting your account, please contact our support team at: <br><a href="mailto:delete.account@saropa.com">delete.account@saropa.com</a>.
+            </p>
+
+            <!-- ADDED: Feedback email link -->
+            <p style="text-align: center; font-size: 0.9em; opacity: 0.8;">
+              To provide feedback about your experience, please email us at:<br><a href="mailto:feedback.account@saropa.com">feedback.account@saropa.com</a>.
             </p>
         </div>
     </div>
