@@ -18,9 +18,9 @@
     
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-    <!-- ADDED: Style overrides for this page -->
+    <!-- Style overrides for this page -->
     <style>
-      /* Fix 1 & 2: Remove ugly white border/footer and fix logo path */
+      /* Fixes for layout and spacing */
       body {
         margin: 0 !important;
       }
@@ -29,6 +29,13 @@
       }
       .pagePanel {
         line-height: 1.6;
+      }
+      
+      /* ADDED: Style to control the GIF size */
+      .instruction-gif {
+        max-width: 450px; /* Limits the GIF's maximum width */
+        width: 100%;      /* Allows it to shrink on mobile */
+        border: 1px solid #ccc;
       }
     </style>
     
@@ -58,7 +65,8 @@
             </ol>
 
             <div class="instruction-image" style="text-align:center; margin: 20px 0;">
-                <img src="images/saropa-delete-account.gif" alt="Animation showing the account deletion process in the Saropa Contacts app." style="max-width:80%; border:1px solid #ccc;">
+                <!-- UPDATED: Using a class instead of inline style for the GIF -->
+                <img src="images/saropa-delete-account.gif" alt="Animation showing the account deletion process in the Saropa Contacts app." class="instruction-gif">
             </div>
 
             <h2>Step 2: Remove the App and Local Data From Your Device</h2>
@@ -81,7 +89,6 @@
             
             <hr>
 
-            <!-- ADDED: Links to Privacy and GDPR pages -->
             <p style="text-align: center;">
               For more information on our data practices, please see our:<br>
               <a href="https://saropa.com/privacy" target="_blank">Privacy Policy</a> &bull;
