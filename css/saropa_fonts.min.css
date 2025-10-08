@@ -1,0 +1,14 @@
+﻿@charset "UTF-8";
+/*!**********************************************************************
+    
+    Copyright © 2010-2023 Saropa Pty Ltd All Rights Reserved.
+    
+    No part of this publication may be reproduced, distributed, or 
+    transmitted in any form or by any means, including photocopying, 
+    recording, or other electronic or mechanical methods, without the 
+    prior written permission of the publisher, except in the case of 
+    brief quotations embodied in critical reviews and certain other 
+    noncommercial uses permitted by copyright law.
+
+***********************************************************************/
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:auto;src:local("Montserrat Light"),local("Montserrat-Light"),url("../fonts/montserrat-v12-latin-300.woff2") format("woff2"),url("../fonts/montserrat-v12-latin-300.woff") format("woff");font-display:swap;}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:auto;src:local("Montserrat Bold"),local("Montserrat-Bold"),url("../fonts/montserrat-v12-latin-700.woff2") format("woff2"),url("../fonts/montserrat-v12-latin-700.woff") format("woff");font-display:swap;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;font-display:auto;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("../fonts/open-sans-v15-latin-regular.woff2") format("woff2"),url("../fonts/open-sans-v15-latin-regular.woff") format("woff");font-display:swap;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;font-display:auto;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("../fonts/open-sans-v15-latin-700.woff2") format("woff2"),url("../fonts/open-sans-v15-latin-700.woff") format("woff");font-display:swap;}@font-face{font-family:'Merriweather',serif;font-style:normal;font-weight:400;font-display:auto;src:local("Merriweather Regular"),local("Merriweather-Regular"),url("../fonts/merriweather-regular.woff2") format("woff2"),url("../fonts/merriweather-regular.woff") format("woff");font-display:swap;}@font-face{font-family:'Merriweather',serif;font-style:normal;font-weight:700;font-display:auto;src:local("Merriweather Bold"),local("Merriweather-Bold"),url("../fonts/merriweather-bold.woff2") format("woff2"),url("../fonts/merriweather-bold.woff") format("woff");font-display:swap;}
